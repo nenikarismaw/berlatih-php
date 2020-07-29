@@ -2,7 +2,7 @@
 function tentukan_deret_geometri($arr) {
 // kode di sini 
     print_r($arr);
-    echo "Deret Geometri? ";
+    echo "Apakah Deret Geometri? ";
     $result = true;
     for($i=1; $i<count($arr); $i++){
         if($arr[$i]/$arr[$i-1] !== $arr[1]/$arr[0]) {
