@@ -1,6 +1,19 @@
 <?php
+echo "===Tukar Besar Kecil===<br>";
 function tukar_besar_kecil($string){
 //kode di sini
+    print_r($string);
+    echo " => ";
+    for($i=0; $i<strlen($string); $i++){
+        if(ctype_upper($string[$i])){
+            $result = strtolower($string[$i]);
+            echo $result;
+        }else{
+            $result = strtoupper($string[$i]);
+            echo $result;
+        }
+    }
+    echo "<br>";
 }
 
 // TEST CASES

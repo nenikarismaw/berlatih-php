@@ -1,6 +1,11 @@
 <?php
 function pasangan_terbesar($angka){
 // kode di sini
+    $angka_terbesar = substr($angka, 0, 2);
+    for($i=0; $i<=strlen($angka)-2; $i++){
+        $pasangan_
+        if($angka[i])
+    }
 }
 
 // TEST CASES

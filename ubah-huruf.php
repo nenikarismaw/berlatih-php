@@ -1,6 +1,9 @@
 <?php
 function ubah_huruf($string){
 //kode di sini
+    $abjad="abcdefghijklmnopqrstuvwxyz";
+    $output="";
+    for($i=0; $i)
 }
 
 // TEST CASES
