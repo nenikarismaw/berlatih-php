@@ -1,11 +1,16 @@
 <?php
 function pasangan_terbesar($angka){
+    print_r($angka);
+    echo " pasangan terbesarnya adalah ";
 // kode di sini
-    $angka_terbesar = substr($angka, 0, 2);
+    $temp = substr($angka, 0, 2);
     for($i=0; $i<=strlen($angka)-2; $i++){
-        $pasangan_
-        if($angka[i])
+        $pasangan_terbesar = substr($angka, $i,2);
+        if($pasangan_terbesar > $temp){
+            $temp = $pasangan_terbesar;
+        }
     }
+    return $temp. "<br>";
 }
 
 // TEST CASES
