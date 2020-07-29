@@ -1,6 +1,21 @@
 <?php
 function tentukan_deret_aritmatika($arr) {
-// kode di sini
+// kode di sini ;
+    print_r($arr) ;
+    echo "Deret Aritmatika? "; 
+    $hasil = true;
+    for($i=1; $i<count($arr); $i++){
+        if($arr[$i]-$arr[$i-1] !== $arr[1]-$arr[0]) {
+            $hasil = false;
+        break;
+        }
+    }
+    if ($hasil == true){
+        echo "True <br><br>";
+    }
+    else{
+        echo "False <br><br>";
+    }
 }
 
 // TEST CASES
